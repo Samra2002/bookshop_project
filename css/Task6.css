@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 49px;
+    color: #109E97;
+   font-family: 'Lobster' , sans-serif ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #109E97;
+}
+
+nav div {
+    padding: 24px 48px;
+    border-left: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.last-item {
+    border-right: 1px solid #fff;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 0;
+    background-image: url(../images/banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button {
+    color: #fff;
+    background-color: #109E97;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-family: 'Roboto' , sans-serif;
+    border: 1px solid #109E97;
+    border-radius: 4px;
+}
+.pagination {
+
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color:#109E97 ;
+    border-radius: 100px;
+}
+.gray {
+    background-color: gray;
+    margin-top: 16px;
+}
+
+.banner-text {
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 23.4px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.banner-text p {
+    margin-bottom: 30px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-head {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.body-container {
+    border: 2px solid #916A6A;
+    width: 950px;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #109E97;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Roboto' , sans-serif;
+}
+.detail {
+    color: #0000EE;
+}
+
+.card img  {
+    width: 150px;
+    height: 227px;
+}
+footer {
+    background-color: #109E97;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
